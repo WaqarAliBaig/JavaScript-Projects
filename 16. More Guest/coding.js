@@ -3,7 +3,7 @@
 let guestList = [`Ahad`, `Arsalan`, `Saad`];
 
 for (let i = 0; i < guestList.length; i++) {
-    console.log(`Hi`, guestList[i], `would to like to have dinner at my home?`);
+    console.log(`Hi`, guestList[i], ` would to like to have dinner at my home?`);
 }
 
 console.log(`______________________________`);
@@ -16,7 +16,7 @@ guestList[2] = `Aamir`;
 
 // Invitation send again.
 for (let i = 0; i < guestList.length; i++) {
-    console.log(`Hi`, guestList[i], `I am throwing a B.B.Q dinner party tonight at my home would you all like to come?`);
+    console.log(`Hi`, guestList[i], ` I am throwing a B.B.Q dinner party tonight at my home would you all like to come?`);
 }
 
 // Found a bigger table.
@@ -32,5 +32,5 @@ guestList.push(`Faizan`);
 
 // Invitation send again.
 for (let i = 0; i < guestList.length; i++) {
-    console.log(`Hey`, guestList[i], `and too all new guest we are having a B.B.Q dinner party tonight at my place I'll be waiting for you guys, it will be a lot of fun.`);
+    console.log(`Hey`, guestList[i], ` and too all new guest we are having a B.B.Q dinner party tonight at my place I'll be waiting for you guys, it will be a lot of fun.`);
 }

@@ -2,6 +2,6 @@
 
 let guestList = ["Ahad", "Arsalan", "Saad"];
 
-console.log("Hi, " + guestList[0] + " I would like you to have dinner at my home.");
-console.log("Hi, " + guestList[1] + " I am having a get togather for dinner at my home would you like to come?");
-console.log("Hi, " + guestList[2] + " I am inviting you to have dinner with me and all the friends at my home.");
+for (let i = 0; i < guestList.length; i++) {
+    console.log("Hi", guestList[i], `would to like to have dinner at my home?`);
+}

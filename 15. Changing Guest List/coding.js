@@ -8,6 +8,7 @@ for (let i = 0; i < guestList.length; i++) {
 
 console.log(`______________________________`);
 
+// Guest who can't make it.
 console.log(guestList[2] + `can't come due to some work.`);
 
 console.log(`______________________________`);
